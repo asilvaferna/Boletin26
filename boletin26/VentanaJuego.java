@@ -8,6 +8,7 @@ package boletin26;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import javax.swing.JCheckBox;
 import javax.swing.JOptionPane;
 
 /**
@@ -801,7 +802,7 @@ public class VentanaJuego extends javax.swing.JFrame {
 
     }
 
-    public void comprobarCampos(javax.swing.JCheckBox boton) {
+    public void comprobarCampos(JCheckBox boton) {
         
         if (boton.isSelected()) {
             contador++;
