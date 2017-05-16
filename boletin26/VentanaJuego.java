@@ -748,7 +748,11 @@ public class VentanaJuego extends javax.swing.JFrame {
         resultadoCinco.setText((String) ganadora.get(4));
         resultadoSeis.setText((String) ganadora.get(5));
 
-        /* Valor de un vector random para cada casilla resultado */
+        if (jugada.equals(ganadora)) {
+            JOptionPane.showMessageDialog(null, "Has ganado!!");
+        } else {
+            JOptionPane.showMessageDialog(null, "Lo siento, no tienes premio");
+        }
 
     }//GEN-LAST:event_botonJugarActionPerformed
 
